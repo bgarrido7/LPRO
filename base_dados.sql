@@ -42,7 +42,7 @@ CREATE TABLE allCharacters(
 CREATE TABLE ability(
 	abilityName VARCHAR PRIMARY KEY, 
 	damage INTEGER NOT NULL,
-	probability FLOAt(3,2) NOT NULL,
+	probability FLOAT(3,2) NOT NULL,
 	colour CHAR NOT NULL,
 	effect VARCHAR
 );
